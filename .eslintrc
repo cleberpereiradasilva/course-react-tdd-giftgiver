@@ -1,0 +1,13 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "semi": ["error", "never"],
+        "quotes": ["error", "single"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "indent": ["error", 4],
+        "no-trailing-spaces": "off"
+    },
+    "env": {
+        "jest": true
+    }
+}
