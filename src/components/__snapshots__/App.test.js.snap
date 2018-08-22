@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`App renders correctly 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -10,7 +10,36 @@ ShallowWrapper {
   "length": 1,
   "node": <div>
     <h1>
-        <Button
+        Gifits
+    </h1>
+    <div
+        className="gift-list"
+    >
+        
+    </div>
+    <Button
+        active={false}
+        block={false}
+        bsClass="btn"
+        bsStyle="default"
+        className="btn-add"
+        disabled={false}
+        onClick={[Function]}
+    >
+        Add Gifit
+    </Button>
+</div>,
+  "nodes": Array [
+    <div>
+      <h1>
+            Gifits
+      </h1>
+      <div
+            className="gift-list"
+      >
+            
+      </div>
+      <Button
             active={false}
             block={false}
             bsClass="btn"
@@ -18,26 +47,9 @@ ShallowWrapper {
             className="btn-add"
             disabled={false}
             onClick={[Function]}
-        >
+      >
             Add Gifit
-        </Button>
-    </h1>
-</div>,
-  "nodes": Array [
-    <div>
-      <h1>
-            <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="btn-add"
-                  disabled={false}
-                  onClick={[Function]}
-            >
-                  Add Gifit
-            </Button>
-      </h1>
+      </Button>
 </div>,
   ],
   "options": Object {},
@@ -79,34 +91,46 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div>
           <h1>
-                    <Button
-                              active={false}
-                              block={false}
-                              bsClass="btn"
-                              bsStyle="default"
-                              className="btn-add"
-                              disabled={false}
-                              onClick={[Function]}
-                    >
-                              Add Gifit
-                    </Button>
+                    Gifits
           </h1>
+          <div
+                    className="gift-list"
+          >
+                    
+          </div>
+          <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
+                    className="btn-add"
+                    disabled={false}
+                    onClick={[Function]}
+          >
+                    Add Gifit
+          </Button>
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
           <h1>
-                    <Button
-                              active={false}
-                              block={false}
-                              bsClass="btn"
-                              bsStyle="default"
-                              className="btn-add"
-                              disabled={false}
-                              onClick={[Function]}
-                    >
-                              Add Gifit
-                    </Button>
+                    Gifits
           </h1>
+          <div
+                    className="gift-list"
+          >
+                    
+          </div>
+          <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
+                    className="btn-add"
+                    disabled={false}
+                    onClick={[Function]}
+          >
+                    Add Gifit
+          </Button>
 </div>,
       },
       "_renderedNodeType": 0,
