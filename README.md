@@ -2,13 +2,13 @@
 
 
 ---
-[x] GiftGiver and Test Driven Development
+- [x] GiftGiver and Test Driven Development<br />
 
-![](https://i.imgur.com/NtAOwyGl.png)<br />
+![](https://i.imgur.com/NtAOwyGl.png)<br /><br />
 ![](https://i.imgur.com/Co0ErSOl.png)<br />
 
 ---
 
-- [x] GiftGiver and Test Driven Development<br />
+
 - [ ] LootCheck and Behavior Driven Development | Part One<br />
 - [ ] LootCheck and Behavior Driven Development | Part Two
