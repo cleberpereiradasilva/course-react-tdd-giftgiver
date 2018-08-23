@@ -8,9 +8,169 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <div />,
+  "node": <Row
+    bsClass="row"
+    className="gift"
+    componentClass="div"
+>
+    <Form
+        bsClass="form"
+        className="gift__form"
+        componentClass="form"
+        horizontal={false}
+        inline={false}
+    >
+        <div
+            className="row"
+        >
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={5}
+            >
+                <FormGroup
+                    bsClass="form-group"
+                >
+                    <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                    >
+                        Person
+                    </ControlLabel>
+                    <FormControl
+                        bsClass="form-control"
+                        className="input-person"
+                        componentClass="input"
+                        onChange={[Function]}
+                    />
+                </FormGroup>
+            </Col>
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={5}
+            >
+                <FormGroup
+                    bsClass="form-group"
+                >
+                    <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                    >
+                        Present
+                    </ControlLabel>
+                    <FormControl
+                        bsClass="form-control"
+                        className="input-gift"
+                        componentClass="input"
+                        onChange={[Function]}
+                    />
+                </FormGroup>
+            </Col>
+            <Col
+                bsClass="col"
+                className="gift__form__row__button"
+                componentClass="div"
+                md={2}
+            >
+                <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
+                    className="btn btn-danger button-remove"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                >
+                    X
+                </Button>
+            </Col>
+        </div>
+    </Form>
+</Row>,
   "nodes": Array [
-    <div />,
+    <Row
+      bsClass="row"
+      className="gift"
+      componentClass="div"
+>
+      <Form
+            bsClass="form"
+            className="gift__form"
+            componentClass="form"
+            horizontal={false}
+            inline={false}
+      >
+            <div
+                  className="row"
+            >
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={5}
+                  >
+                        <FormGroup
+                              bsClass="form-group"
+                        >
+                              <ControlLabel
+                                    bsClass="control-label"
+                                    srOnly={false}
+                              >
+                                    Person
+                              </ControlLabel>
+                              <FormControl
+                                    bsClass="form-control"
+                                    className="input-person"
+                                    componentClass="input"
+                                    onChange={[Function]}
+                              />
+                        </FormGroup>
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={5}
+                  >
+                        <FormGroup
+                              bsClass="form-group"
+                        >
+                              <ControlLabel
+                                    bsClass="control-label"
+                                    srOnly={false}
+                              >
+                                    Present
+                              </ControlLabel>
+                              <FormControl
+                                    bsClass="form-control"
+                                    className="input-gift"
+                                    componentClass="input"
+                                    onChange={[Function]}
+                              />
+                        </FormGroup>
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        className="gift__form__row__button"
+                        componentClass="div"
+                        md={2}
+                  >
+                        <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+                              bsStyle="default"
+                              className="btn btn-danger button-remove"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                        >
+                              X
+                        </Button>
+                  </Col>
+            </div>
+      </Form>
+</Row>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -18,14 +178,20 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 0,
       "_context": Object {},
-      "_currentElement": <Gift />,
+      "_currentElement": <Gift
+        gift={1}
+        handleRemove={[Function]}
+/>,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": Gift {
         "_reactInternalInstance": [Circular],
         "context": Object {},
-        "props": Object {},
+        "props": Object {
+          "gift": 1,
+          "handleRemove": [Function],
+        },
         "refs": Object {},
         "state": Object {
           "person": "",
@@ -49,11 +215,171 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div />,
+        "_currentElement": <Row
+          bsClass="row"
+          className="gift"
+          componentClass="div"
+>
+          <Form
+                    bsClass="form"
+                    className="gift__form"
+                    componentClass="form"
+                    horizontal={false}
+                    inline={false}
+          >
+                    <div
+                              className="row"
+                    >
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={5}
+                              >
+                                        <FormGroup
+                                                  bsClass="form-group"
+                                        >
+                                                  <ControlLabel
+                                                            bsClass="control-label"
+                                                            srOnly={false}
+                                                  >
+                                                            Person
+                                                  </ControlLabel>
+                                                  <FormControl
+                                                            bsClass="form-control"
+                                                            className="input-person"
+                                                            componentClass="input"
+                                                            onChange={[Function]}
+                                                  />
+                                        </FormGroup>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={5}
+                              >
+                                        <FormGroup
+                                                  bsClass="form-group"
+                                        >
+                                                  <ControlLabel
+                                                            bsClass="control-label"
+                                                            srOnly={false}
+                                                  >
+                                                            Present
+                                                  </ControlLabel>
+                                                  <FormControl
+                                                            bsClass="form-control"
+                                                            className="input-gift"
+                                                            componentClass="input"
+                                                            onChange={[Function]}
+                                                  />
+                                        </FormGroup>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        className="gift__form__row__button"
+                                        componentClass="div"
+                                        md={2}
+                              >
+                                        <Button
+                                                  active={false}
+                                                  block={false}
+                                                  bsClass="btn"
+                                                  bsStyle="default"
+                                                  className="btn btn-danger button-remove"
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  type="button"
+                                        >
+                                                  X
+                                        </Button>
+                              </Col>
+                    </div>
+          </Form>
+</Row>,
         "_debugID": 2,
-        "_renderedOutput": <div />,
+        "_renderedOutput": <Row
+          bsClass="row"
+          className="gift"
+          componentClass="div"
+>
+          <Form
+                    bsClass="form"
+                    className="gift__form"
+                    componentClass="form"
+                    horizontal={false}
+                    inline={false}
+          >
+                    <div
+                              className="row"
+                    >
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={5}
+                              >
+                                        <FormGroup
+                                                  bsClass="form-group"
+                                        >
+                                                  <ControlLabel
+                                                            bsClass="control-label"
+                                                            srOnly={false}
+                                                  >
+                                                            Person
+                                                  </ControlLabel>
+                                                  <FormControl
+                                                            bsClass="form-control"
+                                                            className="input-person"
+                                                            componentClass="input"
+                                                            onChange={[Function]}
+                                                  />
+                                        </FormGroup>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={5}
+                              >
+                                        <FormGroup
+                                                  bsClass="form-group"
+                                        >
+                                                  <ControlLabel
+                                                            bsClass="control-label"
+                                                            srOnly={false}
+                                                  >
+                                                            Present
+                                                  </ControlLabel>
+                                                  <FormControl
+                                                            bsClass="form-control"
+                                                            className="input-gift"
+                                                            componentClass="input"
+                                                            onChange={[Function]}
+                                                  />
+                                        </FormGroup>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        className="gift__form__row__button"
+                                        componentClass="div"
+                                        md={2}
+                              >
+                                        <Button
+                                                  active={false}
+                                                  block={false}
+                                                  bsClass="btn"
+                                                  bsStyle="default"
+                                                  className="btn btn-danger button-remove"
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  type="button"
+                                        >
+                                                  X
+                                        </Button>
+                              </Col>
+                    </div>
+          </Form>
+</Row>,
       },
-      "_renderedNodeType": 0,
+      "_renderedNodeType": 1,
       "_rootNodeID": 0,
       "_topLevelWrapper": null,
       "_updateBatchNumber": null,
@@ -63,6 +389,9 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Gift />,
+  "unrendered": <Gift
+    gift={1}
+    handleRemove={[Function]}
+/>,
 }
 `;

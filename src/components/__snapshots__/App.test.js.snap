@@ -22,11 +22,11 @@ ShallowWrapper {
         block={false}
         bsClass="btn"
         bsStyle="default"
-        className="btn-add"
+        className="btn-add btn btn-success"
         disabled={false}
         onClick={[Function]}
     >
-        Add Gifit
+        New Gift
     </Button>
 </div>,
   "nodes": Array [
@@ -44,11 +44,11 @@ ShallowWrapper {
             block={false}
             bsClass="btn"
             bsStyle="default"
-            className="btn-add"
+            className="btn-add btn btn-success"
             disabled={false}
             onClick={[Function]}
       >
-            Add Gifit
+            New Gift
       </Button>
 </div>,
   ],
@@ -68,6 +68,7 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {},
         "refs": Object {},
+        "removeGift": [Function],
         "state": Object {
           "gifts": Array [],
         },
@@ -103,11 +104,11 @@ ShallowWrapper {
                     block={false}
                     bsClass="btn"
                     bsStyle="default"
-                    className="btn-add"
+                    className="btn-add btn btn-success"
                     disabled={false}
                     onClick={[Function]}
           >
-                    Add Gifit
+                    New Gift
           </Button>
 </div>,
         "_debugID": 2,
@@ -125,11 +126,11 @@ ShallowWrapper {
                     block={false}
                     bsClass="btn"
                     bsStyle="default"
-                    className="btn-add"
+                    className="btn-add btn btn-success"
                     disabled={false}
                     onClick={[Function]}
           >
-                    Add Gifit
+                    New Gift
           </Button>
 </div>,
       },
