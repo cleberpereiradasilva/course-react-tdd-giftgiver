@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1535084936907" clover="3.2.0">
+  <project timestamp="1535084936907" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="13" coveredmethods="12" elements="34" coveredelements="33" complexity="0" loc="19" ncloc="19" packages="2" files="3" classes="3">
+      <package name="components">
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="11"/>
+        <file name="App.js" path="/home/noct/HD2TB/Cursos/react_tdd/giftgiver/giftgiver/src/components/App.js">
+          <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="6"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
+          <line num="19" count="4" type="stmt"/>
+          <line num="20" count="4" type="stmt"/>
+          <line num="21" count="4" type="stmt"/>
+          <line num="22" count="4" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="36" count="10" type="stmt"/>
+          <line num="42" count="4" type="stmt"/>
+        </file>
+        <file name="Gift.js" path="/home/noct/HD2TB/Cursos/react_tdd/giftgiver/giftgiver/src/components/Gift.js">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="20" count="3" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="helper">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="index.js" path="/home/noct/HD2TB/Cursos/react_tdd/giftgiver/giftgiver/src/helper/index.js">
+          <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
