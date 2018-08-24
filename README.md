@@ -4,7 +4,7 @@
 ---
 - [x] GiftGiver and Test Driven Development<br />
 
-![](https://i.imgur.com/XaKygKf.gif){height="640px" width="392px"}<br /><br />
+![](https://i.imgur.com/XaKygKf.gif)<br /><br />
 ![](https://i.imgur.com/Co0ErSOl.png)<br />
 
 ---
