@@ -4,8 +4,8 @@
 ---
 - [x] GiftGiver and Test Driven Development<br />
 
-![](https://i.imgur.com/XaKygKf.gif=640x392)<br /><br />
-![](https://i.imgur.com/Co0ErSOl.png=640x392)<br />
+![](https://i.imgur.com/XaKygKf.gif =640x392)<br /><br />
+![](https://i.imgur.com/Co0ErSOl.png =640x392)<br />
 
 ---
 
