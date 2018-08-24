@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App app exist 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <h2>
+        Loot Check
+    </h2>
+</div>,
+  "nodes": Array [
+    <div>
+      <h2>
+            Loot Check
+      </h2>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <App />,
+    "_forcedUpdate": false,
+    "_instance": App {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": null,
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <div>
+      <h2>
+            Loot Check
+      </h2>
+</div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <App />,
+}
+`;
