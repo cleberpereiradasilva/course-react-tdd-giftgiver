@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wallet check if \`Wallet\` exist 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <Row
+    bsClass="row"
+    className="gift"
+    componentClass="div"
+>
+    <Form
+        bsClass="form"
+        className="gift__form"
+        componentClass="form"
+        horizontal={false}
+        inline={false}
+    >
+        <div
+            className="row"
+        >
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={12}
+            >
+                <h3
+                    className="span-balance"
+                >
+                    Wallet balance: 
+                    20
+                </h3>
+            </Col>
+            <Col
+                bsClass="col"
+                componentClass="div"
+                md={12}
+            >
+                <FormGroup
+                    bsClass="form-group"
+                >
+                    <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                    >
+                        Present
+                    </ControlLabel>
+                    <FormControl
+                        bsClass="form-control"
+                        className="input-wallet"
+                        componentClass="input"
+                        onChange={[Function]}
+                    />
+                </FormGroup>
+            </Col>
+            <Col
+                bsClass="col"
+                className="gift__form__row__button"
+                componentClass="div"
+                md={6}
+            >
+                <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
+                    className="btn btn-danger btn-deposit"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                >
+                    +
+                </Button>
+            </Col>
+            <Col
+                bsClass="col"
+                className="gift__form__row__button"
+                componentClass="div"
+                md={6}
+            >
+                <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
+                    className="btn btn-danger btn-withdraw"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                >
+                    -
+                </Button>
+            </Col>
+        </div>
+    </Form>
+</Row>,
+  "nodes": Array [
+    <Row
+      bsClass="row"
+      className="gift"
+      componentClass="div"
+>
+      <Form
+            bsClass="form"
+            className="gift__form"
+            componentClass="form"
+            horizontal={false}
+            inline={false}
+      >
+            <div
+                  className="row"
+            >
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={12}
+                  >
+                        <h3
+                              className="span-balance"
+                        >
+                              Wallet balance: 
+                              20
+                        </h3>
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        componentClass="div"
+                        md={12}
+                  >
+                        <FormGroup
+                              bsClass="form-group"
+                        >
+                              <ControlLabel
+                                    bsClass="control-label"
+                                    srOnly={false}
+                              >
+                                    Present
+                              </ControlLabel>
+                              <FormControl
+                                    bsClass="form-control"
+                                    className="input-wallet"
+                                    componentClass="input"
+                                    onChange={[Function]}
+                              />
+                        </FormGroup>
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        className="gift__form__row__button"
+                        componentClass="div"
+                        md={6}
+                  >
+                        <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+                              bsStyle="default"
+                              className="btn btn-danger btn-deposit"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                        >
+                              +
+                        </Button>
+                  </Col>
+                  <Col
+                        bsClass="col"
+                        className="gift__form__row__button"
+                        componentClass="div"
+                        md={6}
+                  >
+                        <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+                              bsStyle="default"
+                              className="btn btn-danger btn-withdraw"
+                              disabled={false}
+                              onClick={[Function]}
+                              type="button"
+                        >
+                              -
+                        </Button>
+                  </Col>
+            </div>
+      </Form>
+</Row>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Wallet
+        balance={20}
+        deposit={[Function]}
+        withdraw={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Wallet {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "deposit": [Function],
+        "props": Object {
+          "balance": 20,
+          "deposit": [Function],
+          "withdraw": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "balance": undefined,
+        },
+        "updateWallet": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "withdraw": [Function],
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <Row
+          bsClass="row"
+          className="gift"
+          componentClass="div"
+>
+          <Form
+                    bsClass="form"
+                    className="gift__form"
+                    componentClass="form"
+                    horizontal={false}
+                    inline={false}
+          >
+                    <div
+                              className="row"
+                    >
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}
+                              >
+                                        <h3
+                                                  className="span-balance"
+                                        >
+                                                  Wallet balance: 
+                                                  20
+                                        </h3>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}
+                              >
+                                        <FormGroup
+                                                  bsClass="form-group"
+                                        >
+                                                  <ControlLabel
+                                                            bsClass="control-label"
+                                                            srOnly={false}
+                                                  >
+                                                            Present
+                                                  </ControlLabel>
+                                                  <FormControl
+                                                            bsClass="form-control"
+                                                            className="input-wallet"
+                                                            componentClass="input"
+                                                            onChange={[Function]}
+                                                  />
+                                        </FormGroup>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        className="gift__form__row__button"
+                                        componentClass="div"
+                                        md={6}
+                              >
+                                        <Button
+                                                  active={false}
+                                                  block={false}
+                                                  bsClass="btn"
+                                                  bsStyle="default"
+                                                  className="btn btn-danger btn-deposit"
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  type="button"
+                                        >
+                                                  +
+                                        </Button>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        className="gift__form__row__button"
+                                        componentClass="div"
+                                        md={6}
+                              >
+                                        <Button
+                                                  active={false}
+                                                  block={false}
+                                                  bsClass="btn"
+                                                  bsStyle="default"
+                                                  className="btn btn-danger btn-withdraw"
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  type="button"
+                                        >
+                                                  -
+                                        </Button>
+                              </Col>
+                    </div>
+          </Form>
+</Row>,
+        "_debugID": 2,
+        "_renderedOutput": <Row
+          bsClass="row"
+          className="gift"
+          componentClass="div"
+>
+          <Form
+                    bsClass="form"
+                    className="gift__form"
+                    componentClass="form"
+                    horizontal={false}
+                    inline={false}
+          >
+                    <div
+                              className="row"
+                    >
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}
+                              >
+                                        <h3
+                                                  className="span-balance"
+                                        >
+                                                  Wallet balance: 
+                                                  20
+                                        </h3>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}
+                              >
+                                        <FormGroup
+                                                  bsClass="form-group"
+                                        >
+                                                  <ControlLabel
+                                                            bsClass="control-label"
+                                                            srOnly={false}
+                                                  >
+                                                            Present
+                                                  </ControlLabel>
+                                                  <FormControl
+                                                            bsClass="form-control"
+                                                            className="input-wallet"
+                                                            componentClass="input"
+                                                            onChange={[Function]}
+                                                  />
+                                        </FormGroup>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        className="gift__form__row__button"
+                                        componentClass="div"
+                                        md={6}
+                              >
+                                        <Button
+                                                  active={false}
+                                                  block={false}
+                                                  bsClass="btn"
+                                                  bsStyle="default"
+                                                  className="btn btn-danger btn-deposit"
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  type="button"
+                                        >
+                                                  +
+                                        </Button>
+                              </Col>
+                              <Col
+                                        bsClass="col"
+                                        className="gift__form__row__button"
+                                        componentClass="div"
+                                        md={6}
+                              >
+                                        <Button
+                                                  active={false}
+                                                  block={false}
+                                                  bsClass="btn"
+                                                  bsStyle="default"
+                                                  className="btn btn-danger btn-withdraw"
+                                                  disabled={false}
+                                                  onClick={[Function]}
+                                                  type="button"
+                                        >
+                                                  -
+                                        </Button>
+                              </Col>
+                    </div>
+          </Form>
+</Row>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Wallet
+    balance={20}
+    deposit={[Function]}
+    withdraw={[Function]}
+/>,
+}
+`;
