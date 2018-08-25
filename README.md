@@ -8,7 +8,7 @@
 ![](https://i.imgur.com/Co0ErSOl.png)<br />
 
 ---
-- [x]] LootCheck and Behavior Driven Development | Part One<br />
+- [x] LootCheck and Behavior Driven Development | Part One<br />
 ![](https://i.imgur.com/Jy7Qp4Sl.png)<br />
 
 
