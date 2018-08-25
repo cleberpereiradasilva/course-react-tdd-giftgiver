@@ -12,4 +12,6 @@
 ![](https://i.imgur.com/Jy7Qp4Sl.png)<br />
 
 
-- [ ] LootCheck and Behavior Driven Development | Part Two
+
+- [x] LootCheck and Behavior Driven Development | Part Two
+![](https://i.imgur.com/j0G9Pnfl.png)<br />

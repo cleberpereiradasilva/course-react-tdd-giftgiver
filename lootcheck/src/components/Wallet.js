@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { deposit, withdraw } from '../actions/balance'
+
+
 import { 
     Form, 
     FormGroup, 
-    FormControl, 
-    ControlLabel,
+    FormControl,     
     Col,
     Row,
     Button 
@@ -29,8 +30,6 @@ export class Wallet extends Component{
     
     render() {
         return (            
-           
-
                 <Row className='gift'>
                     <Form className='gift__form'>
                         <div className='row'>
@@ -55,13 +54,13 @@ export class Wallet extends Component{
                                     -
                                 </Button>
                             </Col>
+                            
                         </div>
+
                     </Form>
             </Row>
-
-          
         )
     }
 }
 
-export default connect(state => { return { balance: state }}, { deposit, withdraw })(Wallet)
+export default connect(state => { return { balance: state.balance }}, { deposit, withdraw })(Wallet)

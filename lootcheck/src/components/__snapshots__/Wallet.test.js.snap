@@ -43,12 +43,6 @@ ShallowWrapper {
                 <FormGroup
                     bsClass="form-group"
                 >
-                    <ControlLabel
-                        bsClass="control-label"
-                        srOnly={false}
-                    >
-                        Present
-                    </ControlLabel>
                     <FormControl
                         bsClass="form-control"
                         className="input-wallet"
@@ -68,7 +62,7 @@ ShallowWrapper {
                     block={false}
                     bsClass="btn"
                     bsStyle="default"
-                    className="btn btn-danger btn-deposit"
+                    className="btn btn-success btn-deposit"
                     disabled={false}
                     onClick={[Function]}
                     type="button"
@@ -134,12 +128,6 @@ ShallowWrapper {
                         <FormGroup
                               bsClass="form-group"
                         >
-                              <ControlLabel
-                                    bsClass="control-label"
-                                    srOnly={false}
-                              >
-                                    Present
-                              </ControlLabel>
                               <FormControl
                                     bsClass="form-control"
                                     className="input-wallet"
@@ -159,7 +147,7 @@ ShallowWrapper {
                               block={false}
                               bsClass="btn"
                               bsStyle="default"
-                              className="btn btn-danger btn-deposit"
+                              className="btn btn-success btn-deposit"
                               disabled={false}
                               onClick={[Function]}
                               type="button"
@@ -272,12 +260,6 @@ ShallowWrapper {
                                         <FormGroup
                                                   bsClass="form-group"
                                         >
-                                                  <ControlLabel
-                                                            bsClass="control-label"
-                                                            srOnly={false}
-                                                  >
-                                                            Present
-                                                  </ControlLabel>
                                                   <FormControl
                                                             bsClass="form-control"
                                                             className="input-wallet"
@@ -297,7 +279,7 @@ ShallowWrapper {
                                                   block={false}
                                                   bsClass="btn"
                                                   bsStyle="default"
-                                                  className="btn btn-danger btn-deposit"
+                                                  className="btn btn-success btn-deposit"
                                                   disabled={false}
                                                   onClick={[Function]}
                                                   type="button"
@@ -363,12 +345,6 @@ ShallowWrapper {
                                         <FormGroup
                                                   bsClass="form-group"
                                         >
-                                                  <ControlLabel
-                                                            bsClass="control-label"
-                                                            srOnly={false}
-                                                  >
-                                                            Present
-                                                  </ControlLabel>
                                                   <FormControl
                                                             bsClass="form-control"
                                                             className="input-wallet"
@@ -388,7 +364,7 @@ ShallowWrapper {
                                                   block={false}
                                                   bsClass="btn"
                                                   bsStyle="default"
-                                                  className="btn btn-danger btn-deposit"
+                                                  className="btn btn-success btn-deposit"
                                                   disabled={false}
                                                   onClick={[Function]}
                                                   type="button"
